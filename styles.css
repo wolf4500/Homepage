@@ -1,3 +1,11 @@
+* {
+    font-family: Roboto, 'Times New Roman', Times, serif;
+}
+body {
+    padding: 0;
+    margin: 0;
+}
+
 img {
     width: 150px;
     height: auto;
@@ -6,6 +14,7 @@ img {
 .logo {
     width: 48px;
     height: auto;
+    padding: 12px;
 }
 
 ul {
@@ -14,4 +23,22 @@ ul {
 
 a {
     text-decoration: none;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1f2937;
+}
+
+.links {
+    display: flex;
+    gap: 16px;
+    font-size: 18px;
+    align-items: center;
+    padding: 12px;
+}
+
+.links > a {
+    color: #E5E7EB;
 }
