@@ -28,7 +28,6 @@ a {
 .header {
     display: flex;
     justify-content: space-between;
-    background-color: #1f2937;
 }
 
 .links {
@@ -41,4 +40,45 @@ a {
 
 .links > a {
     color: #E5E7EB;
+}
+
+.hero {
+    font-size: 24px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.hero-second {
+    font-size: 16px;
+    color: #E5E7EB;
+}
+
+.top-block {
+    background-color: #1F2937;
+}
+
+.content-block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-content {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    flex-wrap: wrap;
+    width: 300px;
+}
+
+.right-content {
+    display: flex;
+}
+
+button { 
+    width: 75px;
+    background-color: #3882F6;
+    border-style: none;
+    border-radius: 6px;
+    color: white;
+    font-weight: bold;
 }
