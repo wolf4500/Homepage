@@ -54,13 +54,13 @@ a {
 }
 
 .hero {
-    font-size: 24px;
+    font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
 }
 
 .hero-second {
-    font-size: 16px;
+    font-size: 18px;
     color: #E5E7EB;
 }
 
@@ -78,7 +78,7 @@ a {
     flex-direction: column;
     gap: 12px;
     flex-wrap: wrap;
-    width: 300px;
+    width: 450px;
 }
 
 .right-content {
@@ -86,12 +86,14 @@ a {
 }
 
 button { 
-    width: 75px;
+    width: 85px;
+    height: 35px;
     background-color: #3882F6;
     border-style: none;
     border-radius: 6px;
     color: white;
     font-weight: bold;
+    font-size: 18px;
 }
 
 .info-block {
@@ -108,4 +110,20 @@ button {
 
 .info > div {
     text-align: center;
+}
+
+.quote-block {
+    display: flex;
+    justify-content: center;
+    background-color: #e5e7eb;
+}
+
+.ash-quote {
+    font-style: italic;
+    font-size: 36px; 
+    color: #1f2937;
+}
+
+.ash {
+    text-align: end;
 }
