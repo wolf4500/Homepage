@@ -1,9 +1,13 @@
 * {
     font-family: Roboto, 'Times New Roman', Times, serif;
 }
+
 body {
+    display: flex;
+    flex-direction: column;
     padding: 0;
     margin: 0;
+    height: 100vh;
 }
 
 img {
@@ -54,7 +58,7 @@ a {
 }
 
 .hero {
-    font-size: 48px;
+    font-size: 36px;
     font-weight: 900;
     color: #F9FAF8;
 }
@@ -66,23 +70,25 @@ a {
 
 .top-block {
     background-color: #1F2937;
+    padding: 0px 150px 75px 150px;
 }
 
 .content-block {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .left-content {
     display: flex;
     flex-direction: column;
     gap: 12px;
-    flex-wrap: wrap;
     width: 450px;
+    flex-shrink: 0;
 }
 
 .right-content {
     display: flex;
+    gap: 20px;
 }
 
 button { 
@@ -99,6 +105,8 @@ button {
 .info-block {
     display:  flex;
     justify-content: center;
+    padding: 75px 0;
+    gap: 50px;
 }
 
 .info {
@@ -115,7 +123,9 @@ button {
 .quote-block {
     display: flex;
     justify-content: center;
+    align-items: center;
     background-color: #e5e7eb;
+    padding: 75px 0;
 }
 
 .ash-quote {
@@ -131,20 +141,31 @@ button {
 .bottom-block {
     display: flex;
     justify-content: center;
+    padding: 75px;
 }
 
 .fact-block {
     display: flex;
     justify-content: space-between;
     background-color: #3882f6;
+    padding: 50px;
+    width: 700px;
+    border-radius: 10px;
+}
+
+.fact {
+    width: 400px;
+    flex-shrink: 0;
 }
 
 .fact-main {
-    font-size: 24px;
+    font-size: 36px;
     font-weight: bold;
+    color: white;
 }
 
 .fact-second {
+    color: white;
     font-size: 18px;
 }
 
@@ -157,4 +178,5 @@ button {
     color: #f9faf8;
     text-align: center;
     background-color: #1f2937;
+    padding: 25px;
 }
