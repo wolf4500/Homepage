@@ -127,3 +127,34 @@ button {
 .ash {
     text-align: end;
 }
+
+.bottom-block {
+    display: flex;
+    justify-content: center;
+}
+
+.fact-block {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882f6;
+}
+
+.fact-main {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.fact-second {
+    font-size: 18px;
+}
+
+.fact-block > button {
+    border: 2px solid white;
+    align-self: center;
+}
+
+.footer {
+    color: #f9faf8;
+    text-align: center;
+    background-color: #1f2937;
+}
