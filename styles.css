@@ -8,7 +8,18 @@ body {
 
 img {
     width: 150px;
-    height: auto;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.other { 
+    margin-top: 2px;
+    margin-right: 2px;
+    margin-bottom: 2px;
+}
+
+.karp {
+    height: 204px;
 }
 
 .logo {
@@ -81,4 +92,20 @@ button {
     border-radius: 6px;
     color: white;
     font-weight: bold;
+}
+
+.info-block {
+    display:  flex;
+    justify-content: center;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 175px;
+}
+
+.info > div {
+    text-align: center;
 }
